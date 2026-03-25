@@ -2,7 +2,7 @@
   "name": "max-backend-proof",
   "version": "0.1.0",
   "description": "Minimal backend deployment proof",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
     "start": "node server.js",
     "dev": "node server.js"
@@ -11,6 +11,9 @@
   "author": "",
   "license": "ISC",
   "type": "module",
+  "engines": {
+    "node": "24.14.0"
+  },
   "dependencies": {
     "express": "^5.2.1"
   },
